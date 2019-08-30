@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="controller_load">
+        <observer name="one" instance="Bijay\EventObserver\Observer\One" />
+        <observer name="two" instance="Bijay\EventObserver\Observer\Two" />
+        <observer name="three" instance="Bijay\EventObserver\Observer\Three" />
+        <observer name="four" instance="Bijay\EventObserver\Observer\Four" />
+        <observer name="five" instance="Bijay\EventObserver\Observer\Five" />
+    </event>
+</config>

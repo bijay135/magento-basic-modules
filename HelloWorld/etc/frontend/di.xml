@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name = "Bijay\HelloWorld\Block\HelloWorld">
+        <plugin name = "BeforeHelloWorld" type="Bijay\HelloWorld\Plugin\BeforeHelloWorld" disabled="true"/>
+
+        <plugin name = "AfterHelloWorld" type="Bijay\HelloWorld\Plugin\AfterHelloWorld" disabled="true"/>
+
+        <plugin name = "AroundHelloWorld" type="Bijay\HelloWorld\Plugin\AroundHelloWorld" disabled="false"/>
+    </type>
+</config>

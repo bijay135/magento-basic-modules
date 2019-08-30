@@ -1,0 +1,36 @@
+<config
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="VirtualType" xsi:type="object">Bijay\VirtualType\Command\Testbed</item>
+            </argument>
+        </arguments>
+    </type>
+
+
+    <virtualType name="ourVirtualType" type="Bijay\VirtualType\Model\Argument1">
+        <arguments>
+            <argument name="the_argument" xsi:type="object">Bijay\VirtualType\Model\Argument3</argument>
+        </arguments>
+    </virtualType>
+
+
+    <!--
+    <type name="Bijay\VirtualType\Model\Example">
+        <arguments>
+            <argument name="the_object" xsi:type="object">Some\Other\Class</argument>
+        </arguments>
+    </type>
+    -->
+
+
+    <type name="Bijay\VirtualType\Model\Example">
+        <arguments>
+            <argument name="the_object" xsi:type="object">ourVirtualType</argument>
+        </arguments>
+    </type>
+
+
+</config>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Bijay_CustomAdminPage::greetings" title="Greetings" translate="title" module="Bijay_CustomAdminPage"
+             parent="Magento_Backend::content" sortOrder="50" dependsOnModule="Bijay_CustomAdminPage" resource="Bijay_CustomAdminPage::greetings"/>
+        <add id="Bijay_CustomAdminPage::greetings_helloworld" title="Hello World" translate="title" module="Bijay_CustomAdminPage"
+             parent="Bijay_CustomAdminPage::greetings" sortOrder="10" dependsOnModule="Bijay_CustomAdminPage" action="customadminpage/helloworld"
+             resource="Bijay_CustomAdminPage::greetings"/>
+    </menu>
+</config>
