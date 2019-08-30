@@ -3,5 +3,3 @@
 ## The namespace is `Bijay\Module_Name\`
 
 ## To be installed in `app\code\`
-
-
