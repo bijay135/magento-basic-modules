@@ -6,12 +6,12 @@
 
 # Contains modules for:
 
-- Routing sample module
+- Custom Routing and Response Types
 - Custom Admin Page
 - Hello World with Plugins
-- Observer sample module
-- Virtual Type sample module
-- Calculator using Event-Observer with CSRF
+- Event-Observers
+- Virtual Type
+- Calculator using Event-Observers with CSRF
 
 # Roadmap
 
