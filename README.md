@@ -4,13 +4,14 @@
 
 ## To be installed in `app\code\`
 
-# List contains modules for:
+# Contains modules for:
 
-- Hello World
-- Observer sample module
-- Virtual Type sample module
 - Routing sample module
 - Custom Admin Page
+- Hello World with Plugins
+- Observer sample module
+- Virtual Type sample module
+- Calculator using Event-Observer with CSRF
 
 # Roadmap
 
