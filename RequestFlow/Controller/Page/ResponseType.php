@@ -38,19 +38,19 @@ class ResponseType extends Action {
      * @throws \Magento\Framework\Exception\NotFoundException
      */
     public function execute() {
-        // return $this->pageFactory->create();
+        return $this->pageFactory->create();
 
         // return $this->jsonFactory->create()->setData(['key 1' => 'value','key 2' => ['one','two']]);
 
         // $result = $this->raw->setContents('Hello World');
         // return $result;
 
-        //$result = $this->forwardFactory->create();
-        //$result->setModule('noroutefound')->setController('page')->forward('customnoroute');
-        //return $result;
+        // $result = $this->forwardFactory->create();
+        // $result->setModule('noroutefound')->setController('page')->forward('customnoroute');
+        // return $result;
 
-        $result = $this->redirectFactory->create();
-        $result->setPath('noroutefound/page/customnoroute');
-        return $result;
+        // $result = $this->redirectFactory->create();
+        // $result->setPath('noroutefound/page/customnoroute');
+        // return $result;
     }
 }

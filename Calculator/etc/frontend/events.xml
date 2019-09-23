@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="calculate_data">
+        <observer name="Add" instance="Bijay\Calculator\Observer\Add" />
+        <observer name="Sub" instance="Bijay\Calculator\Observer\Sub" />
+        <observer name="Mult" instance="Bijay\Calculator\Observer\Mult" />
+        <observer name="Div" instance="Bijay\Calculator\Observer\Div" />
+        <observer name="Mod" instance="Bijay\Calculator\Observer\Mod" />
+    </event>
+</config>
