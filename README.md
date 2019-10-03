@@ -12,6 +12,7 @@
 - Event-Observers
 - Virtual Type
 - Calculator using Event-Observers with CSRF
+- Calculator using UI Components
 
 # Roadmap
 
