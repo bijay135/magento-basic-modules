@@ -13,9 +13,3 @@
 - Virtual Type
 - Calculator using Event-Observers with CSRF
 - Calculator using UI Components
-
-# Roadmap
-
-- Bijay will be building a small caclulator program using all learnings from the previous 2 months on Magento 2.
-- This program will be an extension and will use uiComponents which is a world in itself.
-- Other optional use case will also be to use Sessions to store the caculation history.
